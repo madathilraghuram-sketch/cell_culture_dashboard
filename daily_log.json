@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-30",
+  "scientist_id": "Tech_Lead_01",
+  "active_campaigns": [
+    {
+      "project_id": "PRJ-CRISPR-2026-01",
+      "client": "US BioTech Corp",
+      "cell_line": "MCF-7 (Breast Cancer)",
+      "target_gene": "BRCA1",
+      "passage_number": 12,
+      "confluency_percent": 88,
+      "viability_percent": 74,
+      "media_type": "DMEM + 10% FBS",
+      "reagent_stock_days_left": 3,
+      "flagged_issues": "Viability dipped post-transfection"
+    },
+    {
+      "project_id": "PRJ-OE-2026-04",
+      "client": "EU Pharma Ltd",
+      "cell_line": "HeLa",
+      "target_gene": "EGFR",
+      "passage_number": 6,
+      "confluency_percent": 60,
+      "viability_percent": 95,
+      "media_type": "EMEM + 10% FBS",
+      "reagent_stock_days_left": 14,
+      "flagged_issues": "None"
+    }
+  ]
+}
